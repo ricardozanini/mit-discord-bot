@@ -1,0 +1,53 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Environment & secrets
+.env
+.env.*
+*.secret
+*.key
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Build / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+.tox/
+.nox/
+
+# Type checking / linters
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# Logs
+*.log
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Misc
+*.tmp
